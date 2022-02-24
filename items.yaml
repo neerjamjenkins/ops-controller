@@ -10,9 +10,9 @@ items:
     - kubernetesFolderProperty: {}
     - itemRestrictions:
         allowedTypes:
+        - jenkins.branch.OrganizationFolder
         - org.jenkinsci.plugins.workflow.job.WorkflowJob
         - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
-        - com.cloudbees.pipeline.governance.templates.classic.multibranch.GovernanceMultibranchPipelineTemplate
         filter: true
   items:
   - kind: organizationFolder
