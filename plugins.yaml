@@ -26,4 +26,5 @@ plugins:
 - id: warnings-ng
 - id: workflow-aggregator
 - id: workflow-cps-checkpoint
+- id: cloudbees-restricted-credentials
 # non-cap plugins
