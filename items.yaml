@@ -5,6 +5,15 @@ items:
 - kind: folder
   displayName: controller-jobs
   name: controller-jobs
+  properties:
+    - envVars: {}
+    - kubernetesFolderProperty: {}
+    - itemRestrictions:
+        allowedTypes:
+        - org.jenkinsci.plugins.workflow.job.WorkflowJob
+        - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
+        - com.cloudbees.pipeline.governance.templates.classic.multibranch.GovernanceMultibranchPipelineTemplate
+        filter: true
   items:
   - kind: organizationFolder
     name: controller-casc-update
